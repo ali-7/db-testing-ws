@@ -1,0 +1,27 @@
+{
+  "name": "db-testing-ws",
+  "version": "1.0.0",
+  "description": "A workshop to get familiar with testing database queries",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ali-7/db-testing-ws.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ali-7/db-testing-ws/issues"
+  },
+  "homepage": "https://github.com/ali-7/db-testing-ws#readme",
+  "dependencies": {
+    "env2": "^2.2.2",
+    "express": "^4.17.1",
+    "pg": "^7.12.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
