@@ -10,8 +10,8 @@ exports.getUsers = (req, res) => {
 };
 
 exports.add = (req, res) => {
-  const { name, location } = req.body;
-  postData(name, location)
+  const userInfo = req.body;
+  postData(userInfo)
     .then(() => res.redirect("/"))
     .catch(err => console.log("err:", err));
 };
